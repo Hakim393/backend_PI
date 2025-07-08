@@ -1,0 +1,37 @@
+{
+  "name": "rumah-backend",
+  "version": "1.0.0",
+  "description": "Backend aplikasi harga rumah Jabodetabek",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
+    "express": "^5.1.0",
+    "js-yaml": "^4.1.0",
+    "pg": "^8.16.0",
+    "postgres": "^3.4.7",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.15.30",
+    "@types/pg": "^8.15.4",
+    "@types/yamljs": "^0.2.34",
+    "drizzle-kit": "^0.31.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
